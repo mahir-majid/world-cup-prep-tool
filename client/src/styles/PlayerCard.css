@@ -1,0 +1,92 @@
+.player-container {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    width: 100%;
+    font-size: 7px;
+    align-items:center;
+    border-radius: 10px;
+    overflow-y: hidden;
+
+}
+
+.position {
+    color: rgb(154, 154, 154);
+    font-style: italic;
+    margin-top: 0;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100%;
+}
+
+.name-position-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    align-items: flex-start;
+    width: 30%;
+    margin-right:0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.name {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: left;
+}
+
+
+.flag {
+    width: 30%;
+    height: auto;
+    object-fit: contain; /* Adjust image size while preserving aspect ratio */
+    margin-left: 0;
+    padding-left: 0;
+    margin-right:0;
+}
+
+.flag-holder {
+    width: 20%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    margin-right: 0;
+}
+
+
+
+.club{
+    width: 25%;
+    text-align:left;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    justify-content: flex-start;
+    overflow-wrap: auto;
+    margin-right: 5%;
+}
+
+.league{
+    width: 20%;
+    text-align:left;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0;
+    flex-direction: row;
+    margin-right: 0.5vw;
+}

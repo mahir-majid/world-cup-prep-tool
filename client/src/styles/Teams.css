@@ -1,0 +1,288 @@
+@import url( 'Https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+.team-body {
+    background-color: transparent;
+    height: 86.6vh;
+}
+
+.add-button {
+    font-family: "Zain", sans-serif;
+    align-content: center;
+    background-color: rgb(37, 181, 247);
+    border-radius: 8%;
+    border: black;
+    color: white;
+    height: 7vh;
+    width: 8vw;
+    margin-top: 1.5vh;
+    font-size: larger;
+    cursor: pointer; /* This changes the cursor to a pointer on hover */
+}
+.add-button:hover {
+    filter: brightness(90%);
+}
+.add-button:active{
+    filter: brightness(80%);
+    transform: translateY(4px);
+}
+
+.label {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 0;
+    border-top-left-radius: 0.9vw;
+    border-top-right-radius: 0.9vw;
+    height: 9vh;
+    background-color: blueviolet;
+}
+
+
+.divider {
+    width: 80%;
+    height: 0.5vh; 
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 3vw;
+    position: relative;
+    left: 10%;
+}
+
+.box {
+    border-radius: 1vw;
+    border-color: rgb(54, 54, 54);
+    border-width: 0.1vw;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3vh;
+    margin-left: 2vw; 
+    width: 30vw; 
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.country-container {
+    display: flex;
+    font-family: "Zain", sans-serif;
+    font-size: 24px;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;     /* Center items vertically */
+    background-color: transparent;
+    width: 100%;
+    height: 8.0vh;
+    right: 50%;
+    border-bottom: 1px solid black; /* Adjust color and thickness as needed */
+    padding: 0 2vw;
+    box-sizing: border-box;
+}
+.country-container:hover {
+    background-color: rgb(255, 184, 255);
+    cursor: pointer;
+}
+
+.country-container p {
+    margin: 0;
+    flex: 1; /* Allow the paragraph to take up remaining space */
+    overflow-x: none;
+    text-align: center; /* Center the text within the paragraph */
+}
+
+.countries-list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Custom scrollbar styles */
+.countries-list::-webkit-scrollbar {
+    width: 0.5vw; /* Width of the scrollbar */
+}
+
+.countries-list::-webkit-scrollbar-track {
+    background: transparent; /* Color of the track */
+}
+
+.countries-list::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+.countries-list::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb on hover */
+}
+
+
+.country-delete-button {
+    transform: translateX(1vw);
+    width: 1.3vw;
+}
+
+.country-delete-button:hover {
+    cursor: pointer;
+    filter: invert(21%) sepia(100%) saturate(7414%) hue-rotate(359deg) brightness(94%) contrast(117%);
+}
+
+.l-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.outer-container {
+    background-color:rgba(229, 250, 223, 0.208);
+    height: 100%;
+    font-family: "Zain", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+START OF MIDDLE SECTION
+*/
+
+.m-container {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+
+}
+
+.m-container-headers {
+    margin-top: 0.5vh;
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-grey {
+    color: rgb(139, 139, 139);
+}
+.reg-text {
+    color: rgb(0, 179, 255);
+}
+
+.player-header {
+    margin-top: 0vh;
+    color: black;
+    background-color: rgba(214, 214, 214, 0.759);
+    text-align: center;
+    margin-bottom: 0.5vh;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.player-grid {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    overflow-y: auto;
+}
+
+/*
+START OF RIGHT SECTION
+*/
+
+.r-title {
+    margin-top: 1.7vh;
+    color: black;
+    margin-bottom: -2vh;
+}
+
+.r-container {
+    margin-left: 2vw;
+    width: 29vw;
+}
+
+.r-section-container {
+    margin-top: 2.5vh;
+}
+
+.club-section {
+    width: 27vw;
+    display: inline-block;
+}
+
+.league-section {
+    margin-left: 2.0vw;
+    display: inline-block;
+}
+
+.club-text {
+    margin-bottom: 0vh;
+}
+
+.league-text {
+    font-style: italic;
+    color: rgb(89, 89, 89);
+    margin-top: 0vh;
+}
+
+.r-match-title {
+    text-align: center;
+    margin-top: 0px;
+    color: black;
+}
+
+.player-grid::-webkit-scrollbar {
+    width: 0.5vw; /* Width of the scrollbar */
+}
+
+.player-grid::-webkit-scrollbar-track {
+    background: transparent; /* Color of the track */
+}
+
+.player-grid::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+.player-grid::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb on hover */
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+
+.fade-out {
+opacity: 0;
+transition: opacity 0.5s ease-out;
+}
+
+.club-btn {
+    font-family: "Zain", sans-serif;
+    background-color: rgba(141, 208, 134, 0.431);
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.club-btn:hover {
+    cursor: pointer;
+    background-color: rgba(122, 149, 111, 0.694)
+}
+
+.club-btn-div {
+    margin-top: 2vh;
+    display: flex;
+    /*
+    justify-content: center;  BAKA remove later if needed
+    */  
+}
+

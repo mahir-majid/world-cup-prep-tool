@@ -1,0 +1,65 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vw;
+    width: 100vw;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 12vh;
+    justify-content: space-between;
+}
+
+.right-box{
+    margin-left: auto;
+    align-content: center;
+}
+
+.left-box{
+    margin-right: auto;
+    align-content: center;
+}
+
+.nav-button {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-content: center;
+    background-color: white;
+    border-radius: 10%;
+    border: transparent;
+    height: 7vh;
+    width: 8vw;
+    margin: 0.5vw;
+    font-size: larger;
+    transition: filter 0.2s, transform 0.2s;
+    cursor: pointer; /* This changes the cursor to a pointer on hover */
+}
+
+.nav-button:hover {
+    filter: brightness(90%); /* Makes the button 15% darker on hover */
+}
+
+.nav-button:active{
+    filter: brightness(80%);
+    transform: translateY(4px);
+}
+
+
+.nav-bar-top-div{
+    background-color: violet;
+    width: 100vw;
+    height: 1vh;
+}
+
+.nav-bar-bottom-div{
+    background-color: rgb(201, 201, 201);
+    width: 100vw;
+    height: 0.25vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}

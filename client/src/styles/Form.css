@@ -1,0 +1,46 @@
+@import url( 'Https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+body {
+    font-family: "Zain", sans-serif;
+    background-color: rgb(11, 11, 114);
+}
+
+.register-div {
+    text-align: center;
+    background-color: rgba(229, 250, 223, 0.6);
+    margin-left: 40vw;
+    margin-top: 12vh;
+    width: 22vw;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    border-radius: 8px;
+}
+
+.submit-button {
+    width: 15vw;
+    height: 5.5vh;
+    border: none;
+    background-color: DarkOrchid;
+    color: white;
+    cursor: pointer;
+    font-family: "Zain", sans-serif;
+}
+
+.submit-button :hover {
+    filter: brightness(90%);
+}
+
+.login-div {
+    text-align: center;
+    background-color: rgba(229, 250, 223, 0.6);
+    margin-left: 40vw;
+    margin-top: 12vh;
+    width: 22vw;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    border-radius: 8px;
+}
+
+.good-font {
+    font-family: "Zain", sans-serif;
+}

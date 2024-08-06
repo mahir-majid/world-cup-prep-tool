@@ -1,0 +1,47 @@
+@import url( 'Https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+.container {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  margin: 10vw auto;
+  margin-top: 27.25vh;
+  width: 60vw;
+  text-align: center;
+  transform: rotate(-1.3deg);
+}
+
+.progress2 {
+  padding: 0.2vw;
+  border-radius: 1vw;
+  background: rgba(69, 69, 69, 0.25);
+  box-shadow: inset 0 1px 2px rgba(39, 39, 39, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+  height: 2vh;
+  border-radius: 6vw;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.5s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+  width: 100%;
+  animation: progressAnimation 0.5s ease forwards;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0%;
+    background-color: #bcd5f9;
+  }
+  100% {
+    width: 100%;
+    background-color: #47baef;
+  }
+}
