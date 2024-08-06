@@ -6,7 +6,7 @@ that are worth following the most based on all of the different players in the n
 
 Project Structure:
 
-Backend: The backend directory was built using Express.js. This directory stores the different models and tables used in the project's MySQL database
+Backend: The backend directory was built using Node.js and Express.js. This directory stores the different models and tables used in the project's MySQL database
 including a Users model which was utilized to handle user registration through JSON Web Token Authentication, a Countries model to store all the selected
 countries of an authenticated user, and a Players model to store the 5 national team players corresponding to a user's selected countries. 
 To gather player information for each national team along with the top clubs and leagues, OpenAI's API was used for gathering and processing the data. 
