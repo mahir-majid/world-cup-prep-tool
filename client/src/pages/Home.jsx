@@ -13,6 +13,7 @@ function Home() {
   }
 
   return <>
+  <h1>Hi</h1>
   <img src={Grass} width="100vw" height="100vh" style={{zIndex: '-1', position: 'absolute', 
     width: '100vw', height: '86.6vh', filter: 'brightness(90%)'}} />
 
