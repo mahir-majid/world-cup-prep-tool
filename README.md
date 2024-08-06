@@ -16,4 +16,6 @@ as the pages for different parts of the site including the Home page, the Regist
 includes relevant components to different aspects of our site including a navigation bar, loading screens, and a protected route that ensures certain pages
 can only be accessed after valid user authentication by signing in through the login page. 
 
+Hosting: The site was hosted using Railway's hosting services and Firebase.
+
 SITE URL: https://world-cup-prep-tool.web.app/
